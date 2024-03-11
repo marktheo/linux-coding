@@ -66,6 +66,4 @@ alias clr='clear'
 alias clh=':>~/.bash_history && history -c && clear'
 
 alias neo='neofetch'
-alias top='btop'
-
 alias shc='nano ~/.bashrc'
