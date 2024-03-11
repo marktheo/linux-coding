@@ -4,7 +4,7 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.copyWithSyntaxHighlighting": false,
     "editor.foldingHighlight": false,
-    "editor.fontFamily": "JetBrains Mono",
+    //"editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.lineHeight": 1.5,
@@ -26,15 +26,9 @@
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
     "git.confirmSync": false,
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontFamily": "JetBrains Mono",
+    //"terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontSize": 14,
     "update.showReleaseNotes": false,
     "window.commandCenter": false,
@@ -46,5 +40,4 @@
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "hidden",
     "window.menuBarVisibility": "compact",
-    "window.titleBarStyle": "custom",
 }
