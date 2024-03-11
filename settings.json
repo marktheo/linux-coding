@@ -32,7 +32,7 @@
     "terminal.integrated.fontSize": 14,
     "update.showReleaseNotes": false,
     "window.commandCenter": false,
-    "workbench.colorTheme": "azure",
+    //"workbench.colorTheme": "azure",
     "workbench.editor.labelFormat": "short",
     "workbench.layoutControl.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
