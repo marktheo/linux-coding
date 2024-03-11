@@ -4,7 +4,7 @@
 > - `sudo apt update && sudo apt upgrade`
 
 > **Install basic packages on your machine:**
-> - `sudo apt install git curl btop neofetch`
+> - `sudo apt install git curl neofetch`
 
 > **Install the code server on your machine:**
 > - `curl -fsSL https://code-server.dev/install.sh | sh`
