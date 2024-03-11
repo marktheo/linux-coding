@@ -68,4 +68,4 @@ alias clh=':>~/.bash_history && history -c && clear'
 alias neo='neofetch'
 alias top='btop'
 
-alias shc='sudo nano ~/.bashrc'
+alias shc='nano ~/.bashrc'
