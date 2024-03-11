@@ -4,5 +4,6 @@
 > - `sudo apt update`
 > - `sudo apt upgrade`
 
-> **Install git on your machine:**
+> **Install git and curl on your machine:**
 > - `sudo apt install git`
+> - `sudo apt install curl`
