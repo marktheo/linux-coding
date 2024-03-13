@@ -1,10 +1,16 @@
-# First Steps to Configure Linux
+# Configuring the environment
+
+## **Updating your operating system**
 
 > **Ensure your distro is up to date:**
 > - `sudo apt update && sudo apt upgrade`
 
-> **Install basic packages on your machine:**
-> - `sudo apt install git curl neofetch`
+<br>
+
+## **Installing the recommended packages**
+
+> **Install the following packages:**
+> - `sudo apt install neofetch micro curl git`
 
 > **Install the code server on your machine:**
 > - `curl -fsSL https://code-server.dev/install.sh | sh`
