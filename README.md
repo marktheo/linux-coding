@@ -14,7 +14,7 @@ sudo apt install neofetch micro curl git
 
 <br>
 
-### **Install the code server**
+### **Install the code server <sub><sup>(optional)</sup></sub>**
 ~~~
 curl -fsSL https://code-server.dev/install.sh | sh
 ~~~
