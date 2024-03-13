@@ -1,19 +1,43 @@
 # Configuring the environment
 
-## **Updating your operating system**
-
-> **Ensure your distro is up to date:**
-> - `sudo apt update && sudo apt upgrade`
+### **Ensure your operating system is up to date**
+~~~
+sudo apt update && sudo apt upgrade
+~~~
 
 <br>
 
-## **Installing the recommended packages**
+### **Install the recommended packages**
+~~~
+sudo apt install neofetch micro curl git
+~~~
 
-> **Install the following packages:**
-> - `sudo apt install neofetch micro curl git`
+<br>
 
-> **Install the code server on your machine:**
-> - `curl -fsSL https://code-server.dev/install.sh | sh`
+### **Install the code server**
+~~~
+curl -fsSL https://code-server.dev/install.sh | sh
+~~~
+<sup>Configure the code server password: .config/code-server/config.yaml</sup>
 
-> **Configure the code server password:**
-> - `/root/.config/code-server/config.yaml`
+<br>
+
+### **Change micro exit command**
+~~~
+"Ctrl-x": "Quit"
+~~~
+<sup>Configure the micro bindings: .config/micro/bindings.json</sup>
+
+<br>
+
+### **Add aliases to bash terminal shell**
+~~~
+alias ls="ls -1"
+alias la="ls -1A"
+
+alias clr="clear"
+alias clh=":>~/.bash_history && history -c && clear"
+
+alias neo="neofetch"
+alias mco="micro"
+~~~
