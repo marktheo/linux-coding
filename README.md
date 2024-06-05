@@ -9,7 +9,7 @@ sudo apt update && sudo apt upgrade
 
 ### **Install the recommended packages**
 ~~~
-sudo apt install neofetch micro curl git
+sudo apt install htop curl git
 ~~~
 
 <br>
@@ -32,12 +32,9 @@ curl -fsSL https://code-server.dev/install.sh | sh
 
 ### **Add aliases to bash terminal shell**
 ~~~
-alias ls="ls -1"
-alias la="ls -1A"
+alias ls="ls -1 --color=auto"
+alias la="ls -1A --color=auto"
 
 alias clr="clear"
 alias clh=":>~/.bash_history && history -c && clear"
-
-alias neo="neofetch"
-alias mco="micro"
 ~~~
