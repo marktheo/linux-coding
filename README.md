@@ -22,11 +22,21 @@ curl -fsSL https://code-server.dev/install.sh | sh
 
 <br>
 
-### **Change micro exit command**
+### **Edit the terminal editor settings**
 ~~~
-"Ctrl-x": "Quit"
+{
+    "Ctrl-x": "Quit"
+}
 ~~~
 <sup>Configure the micro bindings: .config/micro/bindings.json</sup>
+
+~~~
+{
+    "colorscheme": "geany",
+    "paste": true
+}
+~~~
+<sup>Configure the micro settings: .config/micro/settings.json</sup>
 
 <br>
 
