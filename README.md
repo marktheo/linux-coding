@@ -48,3 +48,4 @@ alias la="ls -1A --color=auto"
 alias clr="clear"
 alias clh=":>~/.bash_history && history -c && clear"
 ~~~
+<sup>Configure the bash settings: .bash_aliases</sup>
