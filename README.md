@@ -9,7 +9,7 @@ sudo apt update && sudo apt upgrade
 
 ### **Install the recommended packages**
 ~~~
-sudo apt install htop curl git
+sudo apt install micro htop curl git texlive-base texlive-fonts-recommended texlive-fonts-extra
 ~~~
 
 <br>
