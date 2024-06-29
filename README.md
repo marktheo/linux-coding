@@ -39,7 +39,7 @@ alias ch=":>~/.bash_history && history -c && clear"
 
 alias mc="micro"
 ~~~
-<sup>Configure the bash settings: .bash_aliases</sup>
+<sup>Configure the bash settings: .bashrc</sup>
 
 <br>
 
