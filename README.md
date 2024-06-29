@@ -1,51 +1,55 @@
-# Configuring the environment
+<h1 align='center'>Termux Environment for Android</h1>
 
-### **Ensure your operating system is up to date**
+<h3>Ensure your operating system is up to date</h3>
+
 ~~~
 sudo apt update && sudo apt upgrade
 ~~~
 
 <br>
 
-### **Install the recommended packages**
+<h3>Install the essential packages</h3>
+
 ~~~
-sudo apt install micro htop curl git texlive-base texlive-fonts-recommended texlive-fonts-extra
+sudo apt install micro htop git
 ~~~
 
 <br>
 
-### **Install the code server <sub><sup>(optional)</sup></sub>**
+<h3>Update micro settings and bindings</h3>
+
 ~~~
-curl -fsSL https://code-server.dev/install.sh | sh
+set colorscheme geany
 ~~~
-<sup>Configure the code server password: .config/code-server/config.yaml</sup>
+
+~~~
+bind Ctrl-x Quit
+~~~
 
 <br>
 
-### **Edit the terminal editor settings**
-~~~
-{
-    "Ctrl-x": "Quit"
-}
-~~~
-<sup>Configure the micro bindings: .config/micro/bindings.json</sup>
+<h3>Update bash terminal aliases</h3>
 
 ~~~
-{
-    "colorscheme": "geany",
-    "paste": true
-}
-~~~
-<sup>Configure the micro settings: .config/micro/settings.json</sup>
+alias ls="ls -F1 --color=auto"
+alias la="ls -AF1 --color=auto"
 
-<br>
+alias cl="clear"
+alias ch=":>~/.bash_history && history -c && clear"
 
-### **Add aliases to bash terminal shell**
-~~~
-alias ls="ls -1 --color=auto"
-alias la="ls -1A --color=auto"
-
-alias clr="clear"
-alias clh=":>~/.bash_history && history -c && clear"
+alias mc="micro"
+alias 
 ~~~
 <sup>Configure the bash settings: .bash_aliases</sup>
+
+<br>
+
+<h3>Update termux settings</h3>
+
+~~~
+volume-keys = volume
+terminal-cursor-style = bar
+extra-keys-style = none
+extra-keys = []
+~~~
+<sup>Configure the termux settings: .termux/termux.properties</sup>
