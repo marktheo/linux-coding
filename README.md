@@ -3,7 +3,7 @@
 <h3>Ensure your operating system is up to date</h3>
 
 ~~~
-sudo apt update && sudo apt upgrade
+apt update && apt upgrade -y
 ~~~
 
 <br>
@@ -11,7 +11,7 @@ sudo apt update && sudo apt upgrade
 <h3>Install the essential packages</h3>
 
 ~~~
-sudo apt install micro htop git
+apt install micro htop git clang make
 ~~~
 
 <br>
@@ -38,7 +38,6 @@ alias cl="clear"
 alias ch=":>~/.bash_history && history -c && clear"
 
 alias mc="micro"
-alias 
 ~~~
 <sup>Configure the bash settings: .bash_aliases</sup>
 
